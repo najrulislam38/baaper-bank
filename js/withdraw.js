@@ -26,9 +26,9 @@ document.getElementById("btn-withdrew").addEventListener("click", function () {
   const balanceTotalElement = document.getElementById("balance-total");
   const previousBalanceTotalString = balanceTotalElement.innerText;
   const previousBalanceTotal = parseFloat(previousBalanceTotalString);
-  
-    // step 7
-    withdrawField.value = "";
+
+  // step 7
+  withdrawField.value = "";
 
   if (newWithdrawAmount <= 0 || newWithdrawAmountString === "") {
     return alert("please provide me Withdraw Amount");

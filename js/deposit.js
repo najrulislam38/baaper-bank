@@ -28,5 +28,5 @@ document.getElementById("btn-deposit").addEventListener('click', function(){
     balanceTotalElement.innerText = balanceTotal + depositAmount;
 
     // step-7: clear the deposit field
-    depositField.value = "";
+    depositField.value = "" ;
 })
